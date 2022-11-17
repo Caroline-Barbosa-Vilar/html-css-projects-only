@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 :root {
     --main-bg-color: #EBECEE;
     --menu-bg-color: #FFFFFF;
+    --menu-title-color: #EB9B00;
+    --menu-text-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+    --font-family: 'Poppins', sans-serif;
 }
