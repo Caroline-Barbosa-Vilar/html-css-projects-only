@@ -2,9 +2,14 @@
 
 :root {
     --main-bg-color: #EBECEE;
+
     --menu-bg-color: #FFFFFF;
     --menu-title-color: #EB9B00;
     --menu-text-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+    --banner-bg-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --banner-text-color: #FFFFF1;
+    --banner-border-color: #FFFFFF;
 
     --font-family: 'Poppins', sans-serif;
 }
