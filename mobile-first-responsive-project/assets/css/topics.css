@@ -1,0 +1,26 @@
+.topics {
+    background: var(--topics-bg-color);
+    text-align: center;
+    padding: 1.6rem 0;
+}
+.topics__title {
+    color: var(--topics-text-color);
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+.topics__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topics__item {
+    margin: 2.2rem 0.9rem;
+}
+.topics__link {
+    color: var(--topics-text-color);
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1rem;
+    background-color: var(--topics-bg-link-color);
+}

@@ -21,5 +21,9 @@
     --card-buttons-link: #EB9B00;
     --card-buttons-text-color: #FFFFFF;
 
+    --topics-bg-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);;
+    --topics-text-color: #FFFFFF;
+    --topics-bg-link-color: #EB9B00;
+
     --font-family: 'Poppins', sans-serif;
 }
