@@ -24,3 +24,16 @@
     padding: 1rem;
     background-color: var(--topics-bg-link-color);
 }
+@media screen and (min-width: 1024px) {
+    .topics__title {
+        font-size: 2.4rem;
+    }
+    .topics__list {
+        padding: 0 10rem;
+    }
+    .topics__link {
+        font-size: 2.2rem;
+        font-weight: 600;
+        padding: 1.4rem;
+    }
+}

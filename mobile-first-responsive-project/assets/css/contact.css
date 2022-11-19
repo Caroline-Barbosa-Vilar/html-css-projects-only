@@ -30,3 +30,21 @@
     background: url(../img/icons/Email.svg) no-repeat;
     padding-left: 3rem;
 }
+@media screen and (min-width: 1024px) {
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact__description {
+        width: 30%;
+        margin-right: 3rem;
+    }
+    .contact__title {
+        font-size: 2.4rem;
+        font-weight: 500;
+    }
+    .contact__email {
+        width: 30%;
+    }
+}
