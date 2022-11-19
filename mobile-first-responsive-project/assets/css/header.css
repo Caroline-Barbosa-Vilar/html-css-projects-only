@@ -51,11 +51,27 @@
     .options__item {
         font-size: 1.6rem;
         text-transform: uppercase;
-        padding: 0 1.6rem;
+        padding: 3rem 1.6rem;
     }
     .options__button:checked ~ .list__menu {
         width: auto;
         display: block;
+    }
+    .options__button:checked ~ .options__label > .options__item {
+        color: var(--menu-options-color);
+        background: var(--menu-options-bg-color);
+    }
+    .list__menu-item {
+        width: 15rem;
+    }
+    .list__menu-item:hover {
+        background: var(--menu-options-bg-color);
+    }
+    .list__menu-item:hover > .list__menu-link {
+        -webkit-text-fill-color: var(--menu-options-color);
+    }
+    .list__menu-link {
+        font-size: 1.4rem;
     }
 }
 @media screen and (min-width: 1728px) {

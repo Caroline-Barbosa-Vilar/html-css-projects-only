@@ -4,8 +4,11 @@
     --main-bg-color: #EBECEE;
 
     --menu-bg-color: #FFFFFF;
+    --menu-active-bg-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%); 
     --menu-title-color: #EB9B00;
     --menu-text-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --menu-options-bg-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --menu-options-color: #FFFFFF;
 
     --banner-bg-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --banner-text-color: #FFFFF1;

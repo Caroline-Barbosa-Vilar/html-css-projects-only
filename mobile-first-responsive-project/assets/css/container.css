@@ -6,7 +6,14 @@
     display: block;
 }
 .container__img {
-    padding: 1.2rem;
+    padding: 2rem;
+}
+.container__button:checked ~ .container__label > .header__menu {
+    background-image: url(../img/icons/Menu\ Aberto.svg);
+}
+.container__button:checked ~ .container__label {
+    background: var(--menu-active-bg-color);
+    padding: 0.5rem 1rem;
 }
 .container__button, .container__title, .container__text {
     display: none;
