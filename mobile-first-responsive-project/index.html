@@ -64,9 +64,17 @@
             </ul>
 
             <div class="container">
-                <a href="#"><img src="assets/img/icons/Favoritos.svg" alt="favorites icon" class="container__img container__img-hide"></a>
-                <a href="#"><img src="assets/img/icons/Compras.svg" alt="shopping bag icon" class="container__img"></a>
-                <a href="#"><img src="assets/img/icons/Usuario.svg" alt="user icon" class="container__img"></a>
+                <a href="#">
+                    <img src="assets/img/icons/Favoritos.svg" alt="favorites icon" class="container__img container__img-hide">
+                </a>
+                <a href="#" class="container__link">
+                    <img src="assets/img/icons/Compras.svg" alt="shopping bag icon" class="container__img">
+                    <p class="container__text">My bag</p>
+                </a>
+                <a href="#" class="container__link">
+                    <img src="assets/img/icons/Usuario.svg" alt="user icon" class="container__img">
+                    <p class="container__text">My profile</p>
+                </a>
             </div>
         </header>
         <section class="banner">
@@ -76,68 +84,68 @@
         </section>
         <section class="carousel">
             <h2 class="carousel__title">New releases</h2>
-            <div class="swiper">
-                <div class="swiper-pagination"></div>
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="assets/img/books/Acessibilidade.svg" alt="book on web accessibility"></div>
-                  <div class="swiper-slide"><img src="assets/img/books/ApacheKafka.svg" alt="book on apache kafka and spring boot"></div>
-                  <div class="swiper-slide"><img src="assets/img/books/Guia Front-end.svg" alt="book on frontend"></div>
-                  <div class="swiper-slide"><img src="assets/img/books/Javascript.svg" alt="book on Javascript"></div>
-                  <div class="swiper-slide"><img src="assets/img/books/Liderança.svg" alt="book on Leadership"></div>
-                  <div class="swiper-slide"><img src="assets/img/books/Portugol.svg" alt="book on logics with Portugol"></div>
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-            <div class="card">
-                <div class="card__description">
-                    <div class="description">
-                        <h3 class="description__title">You may be interested in...</h3>
-                        <h2 class="description__title-book">Angular 11 and Firebase</h2>
-                        <p class="description__text">Building an application with the Google Platform.</p>
+            <div class="carousel__container">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="assets/img/books/Acessibilidade.svg" alt="book on web accessibility"></div>
+                      <div class="swiper-slide"><img src="assets/img/books/ApacheKafka.svg" alt="book on apache kafka and spring boot"></div>
+                      <div class="swiper-slide"><img src="assets/img/books/Guia Front-end.svg" alt="book on frontend"></div>
+                      <div class="swiper-slide"><img src="assets/img/books/Javascript.svg" alt="book on Javascript"></div>
+                      <div class="swiper-slide"><img src="assets/img/books/Liderança.svg" alt="book on Leadership"></div>
+                      <div class="swiper-slide"><img src="assets/img/books/Portugol.svg" alt="book on logics with Portugol"></div>
                     </div>
-                    <img src="assets/img/icons/Angular.svg" alt="angular icon" class="description__img">
                 </div>
-                <div class="card__buttons">
-                    <ul class="buttons">
-                        <li class="buttons__item"><img src="assets/img/icons/Favoritos.svg" alt="heart icon"></li>
-                        <li class="buttons__item"><img src="assets/img/icons/Compras.svg" alt="shopping bag icon"></li>
-                    </ul>
-                    <a href="#" class="buttons__link">Learn More</a>
+                <div class="card">
+                    <div class="card__description">
+                        <div class="description">
+                            <h3 class="description__title">You may be interested in...</h3>
+                            <h2 class="description__title-book">Angular 11 and Firebase</h2>
+                            <p class="description__text">Building an application with the Google Platform.</p>
+                        </div>
+                        <img src="assets/img/icons/Angular.svg" alt="angular icon" class="description__img">
+                    </div>
+                    <div class="card__buttons">
+                        <ul class="buttons">
+                            <li class="buttons__item"><img src="assets/img/icons/Favoritos.svg" alt="heart icon"></li>
+                            <li class="buttons__item"><img src="assets/img/icons/Compras.svg" alt="shopping bag icon"></li>
+                        </ul>
+                        <a href="#" class="buttons__link">Learn More</a>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="carousel">
             <h2 class="carousel__title">Bestsellers</h2>
-            <div class="swiper">
-                <div class="swiper-pagination"></div>
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="assets/img/books/Acessibilidade.svg" alt="book on web accessibility"></div>
-                  <div class="swiper-slide"><img src="assets/img/books/ApacheKafka.svg" alt="book on apache kafka and spring boot"></div>
-                  <div class="swiper-slide"><img src="assets/img/books/Guia Front-end.svg" alt="book on frontend"></div>
-                  <div class="swiper-slide"><img src="assets/img/books/Javascript.svg" alt="book on Javascript"></div>
-                  <div class="swiper-slide"><img src="assets/img/books/Liderança.svg" alt="book on Leadership"></div>
-                  <div class="swiper-slide"><img src="assets/img/books/Portugol.svg" alt="book on logics with Portugol"></div>
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-            <div class="card">
-                <div class="card__description">
-                    <div class="description">
-                        <img src="assets/img/icons/Estrelinhas.svg" alt="stars icons" class="description__stars">
-                        <h3 class="description__title">Writer of the month</h3>
-                        <h2 class="description__title-book">Juliana Agarikov</h2>
-                        <p class="description__text">Systems analyst and writer, Juliana is a Frontend specialist.</p>
+            <div class="carousel__container">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="assets/img/books/Acessibilidade.svg" alt="book on web accessibility"></div>
+                      <div class="swiper-slide"><img src="assets/img/books/ApacheKafka.svg" alt="book on apache kafka and spring boot"></div>
+                      <div class="swiper-slide"><img src="assets/img/books/Guia Front-end.svg" alt="book on frontend"></div>
+                      <div class="swiper-slide"><img src="assets/img/books/Javascript.svg" alt="book on Javascript"></div>
+                      <div class="swiper-slide"><img src="assets/img/books/Liderança.svg" alt="book on Leadership"></div>
+                      <div class="swiper-slide"><img src="assets/img/books/Portugol.svg" alt="book on logics with Portugol"></div>
                     </div>
-                    <img src="assets/img/books/Escritora.svg" alt="angular icon" class="description__img">
                 </div>
-                <div class="card__buttons">
-                    <ul class="buttons">
-                        <li class="buttons__item"><img src="assets/img/icons/Favoritos.svg" alt="heart icon"></li>
-                        <li class="buttons__item"><img src="assets/img/icons/Compras.svg" alt="shopping bag icon"></li>
-                    </ul>
-                    <a href="#" class="buttons__link">Learn More</a>
+                <div class="card">
+                    <div class="card__description">
+                        <div class="description">
+                            <img src="assets/img/icons/Estrelinhas.svg" alt="stars icons" class="description__stars">
+                            <h3 class="description__title">Writer of the month</h3>
+                            <h2 class="description__title-book">Juliana Agarikov</h2>
+                            <p class="description__text">Systems analyst and writer, Juliana is a Frontend specialist.</p>
+                        </div>
+                        <img src="assets/img/books/Escritora.svg" alt="angular icon" class="description__img">
+                    </div>
+                    <div class="card__buttons">
+                        <ul class="buttons">
+                            <li class="buttons__item"><img src="assets/img/icons/Favoritos.svg" alt="heart icon"></li>
+                            <li class="buttons__item"><img src="assets/img/icons/Compras.svg" alt="shopping bag icon"></li>
+                        </ul>
+                        <a href="#" class="buttons__link">Learn More</a>
+                    </div>
                 </div>
             </div>
         </section>

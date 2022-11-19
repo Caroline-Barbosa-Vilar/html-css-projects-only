@@ -15,9 +15,6 @@
 .swiper-slide img {
     width: 100%;
 }
-.swiper-button-prev:after,.swiper-button-next:after {
-    display: none;
-}
 .card {
     background: var(--card-bg-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -78,11 +75,24 @@
     .swiper-pagination {
         margin-bottom: 1.5rem;
     }
-    .swiper-button-prev:after,.swiper-button-next:after {
-        display: block;
-    }
     .card {
         width: 50%;
         margin: 3.2rem auto;
+    }
+}
+@media screen and (min-width: 1728px) {
+    .carousel__container {
+        display: flex;
+        margin: 0 15vw 3rem;
+    }
+    .swiper {
+        width: 75%;
+        margin-right: 3rem !important;
+    }
+    .description__title {
+        font-size: 3.2rem;
+    }
+    .card {
+        width: 60%;
     }
 }

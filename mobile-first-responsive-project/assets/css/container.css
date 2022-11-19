@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+.container__button:checked ~ .list__menu {
+    display: block;
+}
+.container__img {
+    padding: 1.2rem;
+}
+.container__button, .container__title, .container__text {
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .container__title, .container__title--bold {
+        font-family: var(--secondary-font-family);
+        font-size: 3rem;
+    }
+    .container__title {
+        font-weight: 400;
+        display: block;
+    }
+    .container__title--bold {
+        font-weight: 700;
+    }
+    .container__img-hide {
+        display: none;
+    }
+}
+@media screen and (min-width: 1728px) {
+    .container__link {
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+    }
+    .container__text {
+        display: block;
+    }
+}

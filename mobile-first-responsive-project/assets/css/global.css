@@ -6,16 +6,6 @@ body {
     font-family: var(--primary-font-family);
     font-weight: 400;
 }
-.container {
-    display: flex;
-    align-items: center;
-}
-.container__img {
-    padding: 1.2rem;
-}
-.container__title {
-    display: none;
-}
 hr {
     margin: 0;
 }

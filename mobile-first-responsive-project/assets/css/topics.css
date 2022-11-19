@@ -37,3 +37,8 @@
         padding: 1.4rem;
     }
 }
+@media screen and (min-width: 1728px) {
+    .topics {
+        padding: 5rem 20vw;
+    }
+}
