@@ -21,9 +21,13 @@
     --card-buttons-link: #EB9B00;
     --card-buttons-text-color: #FFFFFF;
 
-    --topics-bg-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);;
+    --topics-bg-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --topics-text-color: #FFFFFF;
     --topics-bg-link-color: #EB9B00;
 
+    --contact-bg-color: #FFFFFF;
+    --contact-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --contact-border-color: #002F52;
+    --contact-input-color: #002F52;
     --font-family: 'Poppins', sans-serif;
 }
