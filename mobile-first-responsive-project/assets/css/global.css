@@ -13,3 +13,6 @@ body {
 .container__img {
     padding: 1.2rem;
 }
+hr {
+    margin: 0;
+}

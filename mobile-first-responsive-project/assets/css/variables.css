@@ -29,5 +29,8 @@
     --contact-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --contact-border-color: #002F52;
     --contact-input-color: #002F52;
+
+    --footer-bg-color: #FFFFFF;
+
     --font-family: 'Poppins', sans-serif;
 }
