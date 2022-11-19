@@ -13,5 +13,13 @@
 
     --carousel-title-color: #EB9B00;
     --carousel-bg-color: #FFFFFF;
+
+    --card-bg-color: #FFFFFF; 
+    --card-title-color: #EB9B00;
+    --card-title-book-color: #002F52;
+
+    --card-buttons-link: #EB9B00;
+    --card-buttons-text-color: #FFFFFF;
+
     --font-family: 'Poppins', sans-serif;
 }

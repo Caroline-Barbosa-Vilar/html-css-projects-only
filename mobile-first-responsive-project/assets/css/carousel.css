@@ -16,3 +16,47 @@
 .swiper-button-prev:after,.swiper-button-next:after {
     display: none;
 }
+.card {
+    background: var(--card-bg-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    margin: 1.6rem;
+    padding: 1.6rem;
+}
+.card__description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+}
+.description__title {
+    color: var(--card-title-color);
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.description__title-book {
+    color: var(--card-title-book-color);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0.8rem 0;
+}
+.description__text {
+    font-size: 1.4rem;
+    padding-right: 0.5rem;
+}
+.card__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons {
+    display: flex;
+}
+.buttons__item {
+    margin: 0.8rem;
+}
+.buttons__link {
+    color: var(--card-buttons-text-color);
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: var(--card-buttons-link);
+    padding: 1.6rem 3.6rem;
+}
