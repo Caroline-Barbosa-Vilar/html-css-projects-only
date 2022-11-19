@@ -23,7 +23,7 @@
 }
 .banner__search::placeholder {
     color: var(--banner-text-color);
-    font-family: var(--font-family);
+    font-family: var(--primary-font-family);
     font-size: 1.4rem;
     font-weight: 400;
     text-align: center;

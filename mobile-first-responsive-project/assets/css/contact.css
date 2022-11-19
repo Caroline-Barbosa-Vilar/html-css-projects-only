@@ -25,7 +25,7 @@
     border-radius: 2.5rem;
 }
 .contact__email::placeholder {
-    font-family: var(--font-family);
+    font-family: var(--primary-font-family);
     color: var(--contact-input-color);
     background: url(../img/icons/Email.svg) no-repeat;
     padding-left: 3rem;

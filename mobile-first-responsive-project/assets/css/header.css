@@ -41,3 +41,40 @@
     background-clip: text;
     text-transform: uppercase;
 }
+.options {
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .header__menu {
+        display: none;
+    }
+    .container__title, .container__title--bold {
+        font-family: var(--secondary-font-family);
+        font-size: 3rem;
+    }
+    .container__title {
+        font-weight: 400;
+        display: block;
+    }
+    .container__title--bold {
+        font-weight: 700;
+    }
+    .options {
+        display: flex;
+    }
+    .options__item {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        padding: 0 1.6rem;
+    }
+    .options__button {
+        display: none;
+    }
+    .options__button:checked ~ .list__menu {
+        width: auto;
+        display: block;
+    }
+    .container__img-hide {
+        display: none;
+    }
+}
