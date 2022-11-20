@@ -39,8 +39,8 @@ This repository has some projects developed for HTML and CSS practice. Layouts p
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/BOOTSTRAP5-7836F9?style=for-the-badge&logo=bootstrap&logoColor=white">
-  <img src="https://img.shields.io/badge/Sass-7836F9?style=for-the-badge&logo=sass&logoColor=white">
-  <img src="https://img.shields.io/badge/Tailwind-7836F9?style=for-the-badge&logo=tailwind&logoColor=white">
+  <img src="https://img.shields.io/badge/Sass-CF649A?style=for-the-badge&logo=sass&logoColor=white">
+  <img src="https://img.shields.io/badge/Tailwind-38BDF8?style=for-the-badge&logo=tailwind&logoColor=white">
 </div>
 
 <br>
@@ -112,8 +112,8 @@ Esse repositório contém projetos desenvolvidos para treinar HTML e CSS. Os lay
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/BOOTSTRAP5-7836F9?style=for-the-badge&logo=bootstrap&logoColor=white">
-  <img src="https://img.shields.io/badge/Sass-7836F9?style=for-the-badge&logo=sass&logoColor=white">
-  <img src="https://img.shields.io/badge/Tailwind-7836F9?style=for-the-badge&logo=tailwind&logoColor=white">
+  <img src="https://img.shields.io/badge/Sass-CF649A?style=for-the-badge&logo=sass&logoColor=white">
+  <img src="https://img.shields.io/badge/Tailwind-38BDF8?style=for-the-badge&logo=tailwind&logoColor=white">
 </div>
 
 <br>
