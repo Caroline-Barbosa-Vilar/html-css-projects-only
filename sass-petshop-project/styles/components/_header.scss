@@ -1,0 +1,40 @@
+@import '../abstract/variables';
+
+.header {
+  .header__logo {
+    text-align: center;
+    .header__img {
+      max-width: 21rem;
+    }
+  }
+  .header__menu {
+    .menu__list {
+      width: 80%;
+      margin: 0 auto;
+      padding: 1.25rem 0;
+      border-top: 2px solid $primary-color;
+      border-bottom: 2px solid $primary-color;
+      display: flex;
+      justify-content: center;
+      .menu__links {
+        position: relative;
+        &:not(:last-child)::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: -3px;
+          width: 1px;
+          background-color: $primary-color;
+        }
+        .menu__link {
+          padding: 0 1.56rem;
+          color: $secondary-color;
+          &:hover {
+            color: $hover-color;
+          }
+        }
+      }
+    }
+  }
+}

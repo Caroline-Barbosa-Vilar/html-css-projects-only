@@ -1,0 +1,184 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4d6d7e;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #5f4b7c;
+}
+
+.banner {
+  background: url(../img/banner2.jpeg) 27% center no-repeat;
+  min-height: 21.875rem;
+  background-size: cover;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #ffe8d6;
+  opacity: 0.9;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 2.5rem;
+  color: #4d6d7e;
+  padding-bottom: 0.5rem;
+}
+.banner .inner-banner h2 {
+  font-size: 1.25rem;
+  color: #5f4b7c;
+}
+
+#services {
+  margin: 5rem;
+}
+#services h4 {
+  font-size: 1.1363636364rem;
+  color: #5f4b7c;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  margin: 1rem;
+}
+#services h3 {
+  color: #4d6d7e;
+  text-align: center;
+  font-size: 1.9230769231rem;
+  margin-bottom: 4rem;
+  font-weight: 400;
+}
+#services .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#services .cards .card {
+  width: 22.5rem;
+  text-align: center;
+}
+#services .cards .card h5 {
+  color: #4d6d7e;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 1.5rem 0 1.25rem;
+}
+#services .cards .card p {
+  color: #5f4b7c;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+#services .cards .card .img-container {
+  padding-bottom: 0.125rem;
+  border-bottom: 5px solid #5f4b7c;
+}
+#services .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#coupon {
+  background-color: #ffe8d6;
+  padding: 4rem;
+  text-align: center;
+}
+#coupon .coupon-text {
+  color: #4d6d7e;
+}
+#coupon .coupon-text h2 {
+  margin: 2rem;
+  font-size: 1.3888888889rem;
+}
+#coupon .input {
+  margin: 0 auto;
+  width: 25rem;
+  border-radius: 20px;
+  border: 3px solid #5f4b7c;
+  background: #ffe8d6;
+}
+#coupon .input input {
+  background: #ffe8d6;
+  border-radius: 20px;
+  height: 1.5rem;
+  width: 24rem;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+#coupon .input:hover, #coupon .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #5f4b7c;
+  outline: none;
+}
+#coupon button {
+  color: #ffe8d6;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: 2.3rem;
+  width: 8.5rem;
+  margin-top: 0.75rem;
+  outline: none;
+  background-color: #4d6d7e;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 3px solid #5f4b7c;
+}
+#coupon button:hover {
+  color: #4d6d7e;
+  background-color: #ffe8d6;
+}
+
+#about {
+  padding: 5rem;
+  display: flex;
+  background-color: #ffe8d6;
+}
+#about .about-img {
+  border-radius: 50px;
+  opacity: 0.8;
+}
+#about .about-text {
+  text-align: center;
+  padding: 5.5rem 3rem;
+}
+#about .about-text h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #5f4b7c;
+  margin-bottom: 2rem;
+}
+#about .about-text h4 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #4d6d7e;
+  margin-bottom: 0.7rem;
+}
+#about .about-text p {
+  line-height: 1.2rem;
+}
+
+footer {
+  height: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #ffe8d6;
+  padding: 1.5rem 0;
+  background-color: #5f4b7c;
+}
+footer i {
+  color: rgba(72, 241, 80, 0.3960784314);
+  padding-left: 0.5rem;
+}/*# sourceMappingURL=style.css.map */

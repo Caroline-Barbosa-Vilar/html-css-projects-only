@@ -1,0 +1,63 @@
+@import '../abstract/variables';
+
+.article {
+  width: 80%;
+  margin: 0 auto 2.5rem;
+  .article__title {
+    background-color: $primary-color;
+    text-align: center;
+    padding: 1.25rem;
+    .article__h1 {
+      font-size: 1.375rem;
+      color: $secondary-color;
+      letter-spacing: 1px;
+      margin: .3125rem 0 .625rem;
+    }
+    .article__breadcrumb {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .article__breadcrumb-link {
+        font-size: .75rem;
+        text-decoration: none;
+        &:hover {
+          color: $tertiary-color;
+        }
+      }
+      .article__breadcrumb-img {
+        width: .625rem;
+        margin: .5rem;
+      }
+    }
+  }
+  .article__content {
+    .article__img {
+      width: 100%;
+      margin-bottom: 1.25rem;
+    }
+    .article__details {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .article_date {
+        font-size: .75rem;
+        font-style: italic;
+        margin: 0 .625rem;
+      }
+      .article__tag {
+        font-size: .875rem;
+        color: $tertiary-color;
+        padding: .3125rem .4375rem;
+        border: 1px solid $tertiary-color;
+        margin: 0 .625rem;
+      }
+    }
+    .article__text {
+      font-weight: 100;
+      font-size: .875rem;
+      line-height: 1.2;
+      color: $secondary-color;
+      padding: .625rem 1.25rem;
+    }
+  }
+}

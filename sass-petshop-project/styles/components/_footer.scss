@@ -1,0 +1,17 @@
+@import '../abstract/variables';
+
+.footer {
+  text-align: center;
+  padding: 1.25rem 0;
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  .footer__logo {
+    max-width: 6.25rem;
+  }
+  .footer_txt {
+    margin: auto;
+    font-size: 0.875rem;
+  }
+}

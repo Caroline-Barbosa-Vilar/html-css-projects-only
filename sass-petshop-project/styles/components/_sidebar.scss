@@ -1,0 +1,50 @@
+@import '../abstract/variables';
+
+.main__sidebar {
+  width: 25%;
+  padding: 2.5rem .625rem;
+  .sidebar__top {
+    border: 1px solid $primary-color;
+    padding: .93rem 1.25rem;
+    .sidebar__title {
+      background-color: $quaternary-color;
+      text-align: center;
+      padding: .625rem 1.25rem;
+      margin: 0;
+      letter-spacing: 1.5px;
+    }
+    .sidebar__posts {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      .sidebar__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: .93rem 0;
+        &:not(:last-child) {
+          border-bottom: 1px solid $primary-color;
+        }
+        .sidebar__img {
+          width: 40%;
+        }
+        .sidebar__details {
+          width: 50%;
+          padding-left: .625rem;
+          .sidebar__post-title {
+            font-size: .875rem;
+            color: $tertiary-color;
+            &:hover {
+              color: $quaternary-color;
+            }
+          }
+          .sidebar__post-date {
+            font-size: .75rem;
+            margin-top: 5px;
+          }
+        }    
+      }
+    }
+  }
+}

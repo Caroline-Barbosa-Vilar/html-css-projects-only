@@ -1,0 +1,14 @@
+@import '../abstract/variables';
+
+footer {
+  height: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: $tertiary-color;
+  padding: 1.5rem 0;
+  background-color: $secondary-color;
+  i {
+    color: $i-frame-color;
+    padding-left: .5rem;
+  }
+}

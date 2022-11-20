@@ -1,0 +1,66 @@
+@import '../abstract/variables';
+
+.about {
+  width: 80%;
+  margin: 0 auto 2.5rem;
+  .about__title {
+    text-align: center;
+    padding: 1.25rem;
+    background-color: $primary-color;
+    .about__h1 {
+      font-size: 1.357rem;
+      color: $secondary-color;
+      letter-spacing: 1px;
+      margin: .31rem 0 .62rem;
+    }
+    .breadcrumb {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .breadcrumb__link {
+        font-size: .78rem;
+        text-decoration: none;
+        color: $secondary-color;
+        &:hover {
+          text-decoration: underline;
+          color: $tertiary-color;
+        }
+      }
+      .breadcrumb__img {
+        width: .625rem;
+        margin: .5rem;
+      }
+    }
+  }
+  .about__content {
+    .about__img {
+      width: 100%;
+      margin-bottom: 1.25rem;
+    }
+    .about__intro {
+      width: 70%;
+      font-weight: 100;
+      color: $secondary-color;
+      text-align: center;
+      font-size: 1rem;
+      margin: 1.875rem auto;
+    }
+    .about__split {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      .about__img-description {
+        width: $img-width;
+      }
+      .about__text {
+        width: calc(100% - #{$img-width});
+        .about__p {
+          font-size: .90rem;
+          padding: .62rem 1.25rem;
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}

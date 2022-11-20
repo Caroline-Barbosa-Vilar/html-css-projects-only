@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    padding-left: 2rem;
 }
 .header__menu {
     width: 2.4rem;
@@ -20,11 +21,11 @@
     top: 100%;
     width: 60vw;
 }
-.lista__menu-title {
+.list__menu-title {
     color: var(--menu-title-color);
     font-weight: 700;
 }
-.lista__menu-title, .list__menu-item {
+.list__menu-title, .list__menu-item {
     padding: 1rem;
     background-color: var(--menu-bg-color);
 }
@@ -49,7 +50,7 @@
         display: flex;
     }
     .options__item {
-        font-size: 1.6rem;
+        font-size: 2rem;
         text-transform: uppercase;
         padding: 3rem 1.6rem;
     }
