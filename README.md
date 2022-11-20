@@ -60,15 +60,15 @@ Project 'mobile-first-responsive-project':
 
 Mobile
 
-<img src="./mobile-first-responsive-project/mobile.webm" alt="mobile screen video">
+<img src="./mobile-first-responsive-project/assets/mobile.gif" alt="mobile screen video">
 
 Desktop 
 
-<img src="./mobile-first-responsive-project/desktop.webm" alt="desktop screen video">
+<img src="./mobile-first-responsive-project/assets/desktop.gif" alt="desktop screen video">
 
 Larger Screens 
 
-<img src="./mobile-first-responsive-project/larger-screens.webm" alt="larger screens video"> 
+<img src="./mobile-first-responsive-project/assets/larger-screens.gif" alt="larger screens video"> 
 
 <br>
 
@@ -131,15 +131,15 @@ Project 'mobile-first-responsive-project':
 
 Mobile
 
-<img src="./mobile-first-responsive-project/mobile.webm" alt="mobile screen video">
+<img src="./mobile-first-responsive-project/assets/mobile.gif" alt="mobile screen video">
 
 Desktop 
 
-<img src="./mobile-first-responsive-project/desktop.webm" alt="desktop screen video">
+<img src="./mobile-first-responsive-project/assets/desktop.gif" alt="desktop screen video">
 
 Larger Screens 
 
-<img src="./mobile-first-responsive-project/larger-screens.webm" alt="larger screens video"
+<img src="./mobile-first-responsive-project/assets/larger-screens.gif" alt="larger screens video"> 
 <br>
 <hr>
 
