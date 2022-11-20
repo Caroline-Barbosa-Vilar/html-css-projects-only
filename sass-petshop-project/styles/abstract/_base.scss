@@ -1,4 +1,5 @@
 @import 'variables';
+
 * {
   a {
     text-decoration: none;
@@ -15,4 +16,14 @@ body {
 }
 @mixin desktop {
   @media (min-width: 1200px) { @content;}
+}
+@mixin theme-collection ($half-post: true) {
+  @include mobile{
+    width: $full-width;
+  }
+  @if $half-post {
+    width: $half-width;
+  } @else {
+    width: $full-width;
+  }
 }

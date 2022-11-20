@@ -354,6 +354,140 @@ body {
   padding: 0.625rem 1.25rem;
 }
 
+.collection {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 767.98px) {
+  .collection {
+    width: 90%;
+  }
+}
+.collection .collection__breadcrumb {
+  width: 100%;
+  background-color: #EAEAEB;
+  text-align: center;
+  padding: 1.88rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.collection .breadcrumb .breadcrumb__link {
+  font-size: 1.25rem;
+  color: #3B3A3A;
+  text-decoration: unset;
+  letter-spacing: 1px;
+}
+.collection .breadcrumb .breadcrumb__link:hover {
+  color: #A050BE;
+  text-decoration: underline;
+}
+@media (max-width: 767.98px) {
+  .collection .breadcrumb .breadcrumb__link {
+    font-size: 1.125rem;
+  }
+}
+.collection .breadcrumb .breadcrumb__img {
+  width: 0.88rem;
+}
+.collection .collection__post {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media (max-width: 767.98px) {
+  .collection .collection__post {
+    width: 100%;
+  }
+}
+.collection .collection__post.half {
+  width: 50%;
+}
+@media (max-width: 767.98px) {
+  .collection .collection__post.half {
+    width: 100%;
+  }
+}
+.collection .collection__post .collection__figure {
+  width: 50%;
+}
+.collection .collection__post .collection__figure .collection__img {
+  width: 100%;
+}
+.collection .collection__post .collection__about {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.collection .collection__post .collection__about .collection__title {
+  width: 100%;
+  font-size: 1.25rem;
+  color: #3B3A3A;
+  text-decoration: unset;
+  letter-spacing: 1px;
+  margin: 0.625rem 0;
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .collection .collection__post .collection__about .collection__title.half {
+    font-size: 0.875rem;
+  }
+}
+.collection .collection__post .collection__about .collection__title:hover {
+  color: #A050BE;
+  text-decoration: underline;
+}
+@media (max-width: 767.98px) {
+  .collection .collection__post .collection__about .collection__title {
+    font-size: 0.875rem;
+  }
+}
+.collection .collection__post .collection__about .collection__date {
+  width: 20%;
+  font-size: 0.75rem;
+  font-style: italic;
+  margin: 0 0.625rem;
+}
+@media (max-width: 767.98px) {
+  .collection .collection__post .collection__about .collection__date {
+    font-size: 0.625rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .collection .collection__post .collection__about .collection__date {
+    width: 30%;
+  }
+}
+.collection .collection__post .collection__about .collection__tag {
+  width: 3.13rem;
+  color: #5a3e64;
+  font-size: 0.875rem;
+  padding: 5px 7px;
+  border: 1px solid #5a3e64;
+  margin: 0 0.625rem;
+}
+@media (max-width: 767.98px) {
+  .collection .collection__post .collection__about .collection__tag {
+    width: 1.875rem;
+    font-size: 0.75rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .collection .collection__post .collection__about .collection__tag {
+    width: 2.19rem;
+    font-size: 0.75rem;
+  }
+}
+
 .footer {
   text-align: center;
   padding: 1.25rem 0;
