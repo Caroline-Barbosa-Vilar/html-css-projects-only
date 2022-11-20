@@ -16,8 +16,17 @@
       border-bottom: 2px solid $primary-color;
       display: flex;
       justify-content: center;
+      @include mobile {
+        width: 90%;
+        padding: 0.94rem 0;
+        flex-wrap: wrap;
+      }
       .menu__links {
         position: relative;
+        @include mobile {
+          padding: 0.32rem 0;
+        }
+
         &:not(:last-child)::after {
           content: '';
           position: absolute;

@@ -3,6 +3,11 @@
 .about {
   width: 80%;
   margin: 0 auto 2.5rem;
+  @include mobile {
+    width: 90%;
+    padding: 0.94rem 0;
+    margin-bottom: 0;
+  }
   .about__title {
     text-align: center;
     padding: 1.25rem;
@@ -50,11 +55,17 @@
       justify-content: center;
       flex-wrap: wrap;
       align-items: center;
+      @include mobile {
+        flex-direction: column;
+      }
       .about__img-description {
         width: $img-width;
       }
       .about__text {
         width: calc(100% - #{$img-width});
+        @include mobile {
+          width: 90%;
+        }
         .about__p {
           font-size: .90rem;
           padding: .62rem 1.25rem;

@@ -5,15 +5,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-body main {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-body main .main__content {
-  width: 70%;
-  padding: 2.5rem 0.5rem;
-}
 
 .header .header__logo {
   text-align: center;
@@ -30,8 +21,20 @@ body main .main__content {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 767.98px) {
+  .header .header__menu .menu__list {
+    width: 90%;
+    padding: 0.94rem 0;
+    flex-wrap: wrap;
+  }
+}
 .header .header__menu .menu__list .menu__links {
   position: relative;
+}
+@media (max-width: 767.98px) {
+  .header .header__menu .menu__list .menu__links {
+    padding: 0.32rem 0;
+  }
 }
 .header .header__menu .menu__list .menu__links:not(:last-child)::after {
   content: "";
@@ -50,51 +53,65 @@ body main .main__content {
   color: #A050BE;
 }
 
-.main__post {
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main .main__content {
+  width: 70%;
+  padding: 2.5rem 0.5rem;
+}
+@media (max-width: 767.98px) {
+  .main .main__content {
+    width: 100%;
+  }
+}
+.main .main__content .main__post {
   text-align: center;
   max-width: 50rem;
   margin: 0 auto;
 }
-.main__post .main__title {
+.main .main__content .main__post .main__title {
   text-decoration: none;
   font-size: 1.375rem;
   color: #3B3A3A;
   letter-spacing: 1.5;
 }
-.main__post .main__title:hover {
+.main .main__content .main__post .main__title:hover {
   color: #A050BE;
 }
-.main__post .main__subtitle {
+.main .main__content .main__post .main__subtitle {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0.625rem 0 1.25rem;
 }
-.main__post .main__subtitle .main__date {
+.main .main__content .main__post .main__subtitle .main__date {
   margin: 0 0.625rem;
   font-size: 0.75rem;
   font-style: italic;
 }
-.main__post .main__subtitle .main__tag {
+.main .main__content .main__post .main__subtitle .main__tag {
   font-size: 0.875rem;
   padding: 0.31rem 0.43rem;
   color: #5a3e64;
   border: 2px solid #5a3e64;
   margin: 0 0.625rem;
 }
-.main__post .main__details {
+.main .main__content .main__post .main__details {
   border: 2px solid #EAEAEB;
 }
-.main__post .main__details .main__img {
+.main .main__content .main__post .main__details .main__img {
   width: 100%;
 }
-.main__post .main__details .main__description {
+.main .main__content .main__post .main__details .main__description {
   padding: 2.5rem 0 1.56rem;
   max-width: 40rem;
   margin: 0 auto;
   font-size: 0.875rem;
 }
-.main__post .main__details .main__btn {
+.main .main__content .main__post .main__details .main__btn {
   text-decoration: none;
   font-size: 1rem;
   letter-spacing: 1.5;
@@ -103,42 +120,49 @@ body main .main__content {
   padding: 0.625rem 1.25rem;
   transition: 0.3s;
 }
-.main__post .main__details .main__btn:hover {
+.main .main__content .main__post .main__details .main__btn:hover {
   color: #a2c9ab;
   background-color: #5a3e64;
 }
-.main__post .main__details .main__info {
+.main .main__content .main__post .main__details .main__info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #EAEAEB;
   margin-top: 1.875rem;
 }
-.main__post .main__details .main__info .main__author {
+.main .main__content .main__post .main__details .main__info .main__author {
   width: 50%;
   border-right: 1px solid #EAEAEB;
 }
-.main__post .main__details .main__info .main__author .main__p {
+.main .main__content .main__post .main__details .main__info .main__author .main__p {
   font-size: 0.875rem;
   color: #3B3A3A;
   margin: 0.625rem 0;
 }
-.main__post .main__details .main__info .main__comments {
+.main .main__content .main__post .main__details .main__info .main__comments {
   width: 50%;
 }
-.main__post .main__details .main__info .main__comments .main__link {
+.main .main__content .main__post .main__details .main__info .main__comments .main__link {
   text-decoration: none;
   font-size: 0.875rem;
   color: #3B3A3A;
   margin: 0.625rem 0;
 }
-.main__post .main__details .main__info .main__comments .main__link:hover {
+.main .main__content .main__post .main__details .main__info .main__comments .main__link:hover {
   color: #5a3e64;
 }
 
 .about {
   width: 80%;
   margin: 0 auto 2.5rem;
+}
+@media (max-width: 767.98px) {
+  .about {
+    width: 90%;
+    padding: 0.94rem 0;
+    margin-bottom: 0;
+  }
 }
 .about .about__title {
   text-align: center;
@@ -187,11 +211,21 @@ body main .main__content {
   flex-wrap: wrap;
   align-items: center;
 }
+@media (max-width: 767.98px) {
+  .about .about__content .about__split {
+    flex-direction: column;
+  }
+}
 .about .about__content .about__split .about__img-description {
   width: 35%;
 }
 .about .about__content .about__split .about__text {
   width: calc(100% - 35%);
+}
+@media (max-width: 767.98px) {
+  .about .about__content .about__split .about__text {
+    width: 90%;
+  }
 }
 .about .about__content .about__split .about__text .about__p {
   font-size: 0.9rem;
@@ -202,6 +236,11 @@ body main .main__content {
 .main__sidebar {
   width: 25%;
   padding: 2.5rem 0.625rem;
+}
+@media (max-width: 767.98px) {
+  .main__sidebar {
+    width: 90%;
+  }
 }
 .main__sidebar .sidebar__top {
   border: 1px solid #EAEAEB;
@@ -251,6 +290,13 @@ body main .main__content {
 .article {
   width: 80%;
   margin: 0 auto 2.5rem;
+}
+@media (max-width: 767.98px) {
+  .article {
+    width: 90%;
+    padding: 0.94rem 0;
+    margin-bottom: 0;
+  }
 }
 .article .article__title {
   background-color: #EAEAEB;

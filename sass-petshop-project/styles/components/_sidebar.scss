@@ -3,6 +3,9 @@
 .main__sidebar {
   width: 25%;
   padding: 2.5rem .625rem;
+  @include mobile {
+    width: 90%;
+  }
   .sidebar__top {
     border: 1px solid $primary-color;
     padding: .93rem 1.25rem;
