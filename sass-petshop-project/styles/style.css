@@ -488,6 +488,25 @@ body {
   }
 }
 
+.contact {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1.25rem 0 auto;
+}
+.contact .contact__figure {
+  width: 50%;
+}
+.contact .contact__figure .contact__img {
+  width: 100%;
+}
+.contact .contact__info {
+  width: 40%;
+  text-align: center;
+}
+
 .footer {
   text-align: center;
   padding: 1.25rem 0;

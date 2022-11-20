@@ -1,0 +1,27 @@
+@import '../abstract/variables';
+
+.contact {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1.25rem 0 auto;
+    .contact__figure {
+        width: 50%;
+        .contact__img {
+            width: 100%;
+        }
+    }
+    .contact__info {
+        width: 40%;
+        text-align: center;
+    }
+    @while $while-variable < 5 {
+        .contact__p-#{$while-variable} {
+            font-size: 1.87rem / $while-variable;
+            padding-top: 5px * $while-variable;
+        }
+        $while-variable: $while-variable + 1;
+    }
+}
