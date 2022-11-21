@@ -494,10 +494,21 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 1.25rem 0 auto;
+  margin: 1.25rem auto;
+}
+@media (max-width: 767.98px) {
+  .contact {
+    width: 90%;
+    flex-direction: column;
+  }
 }
 .contact .contact__figure {
   width: 50%;
+}
+@media (max-width: 767.98px) {
+  .contact .contact__figure {
+    width: 90%;
+  }
 }
 .contact .contact__figure .contact__img {
   width: 100%;
@@ -505,6 +516,28 @@ body {
 .contact .contact__info {
   width: 40%;
   text-align: center;
+}
+@media (max-width: 767.98px) {
+  .contact .contact__info {
+    width: 90%;
+  }
+}
+.contact .contact__info .contact__title {
+  font-size: 1.25rem;
+}
+@media (max-width: 767.98px) {
+  .contact .contact__info .contact__title {
+    margin-top: 1rem;
+  }
+}
+.contact .contact__info .contact__text {
+  padding: 0.7rem;
+  margin: 0 1rem;
+}
+@media (max-width: 767.98px) {
+  .contact .contact__info .contact__text {
+    font-size: 0.875rem;
+  }
 }
 
 .footer {

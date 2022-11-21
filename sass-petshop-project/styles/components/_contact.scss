@@ -6,9 +6,16 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 1.25rem 0 auto;
+    margin: 1.25rem auto;
+    @include mobile {
+        width: 90%;
+        flex-direction: column;
+    }
     .contact__figure {
         width: 50%;
+        @include mobile {
+            width: 90%;
+        }
         .contact__img {
             width: 100%;
         }
@@ -16,12 +23,21 @@
     .contact__info {
         width: 40%;
         text-align: center;
-    }
-    @while $while-variable < 5 {
-        .contact__p-#{$while-variable} {
-            font-size: 1.87rem / $while-variable;
-            padding-top: 5px * $while-variable;
+        @include mobile {
+            width: 90%;
         }
-        $while-variable: $while-variable + 1;
+        .contact__title {
+            font-size: 1.25rem;
+            @include mobile {
+                margin-top: 1rem;
+            }
+        }
+        .contact__text {
+            padding: 0.7rem;
+            margin: 0 1rem;
+            @include mobile {
+                font-size: 0.875rem;
+            }
+        }
     }
 }
