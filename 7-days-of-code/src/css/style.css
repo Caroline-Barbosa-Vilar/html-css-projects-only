@@ -1,7 +1,6 @@
 html {
-    font-size:62.5%;
-    box-sizing: border-box;
+    font-family: var(--font-family);
 }
 .container {
-    padding: 2.65rem 11.2rem;
+    padding: 1.66rem 7rem;
 }

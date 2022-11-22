@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 :root {
     --header-logo-text-color: #3A404E;
     --header-links-color: #667085;
     --header-button-text-color: #FFFFFF;
     --header-button-bg-color: #8E2424;
+
+    --font-family: 'Inter', sans-serif;
 }
 
