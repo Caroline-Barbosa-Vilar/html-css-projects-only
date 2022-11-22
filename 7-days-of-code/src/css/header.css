@@ -1,0 +1,6 @@
+.header .container, .header__logo, .header__list {
+    display: flex;
+}
+.header__link {
+    color: var(--header-links-color);
+}
