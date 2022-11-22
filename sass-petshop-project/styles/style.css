@@ -253,6 +253,9 @@ body {
   margin: 0;
   letter-spacing: 1.5px;
 }
+.main__sidebar .sidebar__top .sidebar__title .sidebar__link a {
+  color: var(#3B3A3A);
+}
 .main__sidebar .sidebar__top .sidebar__posts {
   margin: 0;
   padding: 0;
@@ -433,7 +436,7 @@ body {
   width: 100%;
   font-size: 1.25rem;
   color: #3B3A3A;
-  text-decoration: unset;
+  text-decoration: none;
   letter-spacing: 1px;
   margin: 0.625rem 0;
 }
