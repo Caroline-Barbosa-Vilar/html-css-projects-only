@@ -4,13 +4,16 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.menu__hamburguer {
+    display: none;
+}
 .header__logo-text {
     color: var(--header-logo-text-color);
     font-size: 1.125rem;
     font-weight: 500;
     margin-left: 6px;
 }
-.header__list {
+.header__menu {
     width: 22.62rem;
     display: flex;
     justify-content: space-between;

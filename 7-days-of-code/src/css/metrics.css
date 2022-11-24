@@ -1,0 +1,25 @@
+.metrics > .container {
+  height: 18rem;
+  display: flex;
+  text-align: justify;
+}
+.metrics__item {
+  width: 17rem;
+  margin-right: 2rem;
+}
+.metrics__subtitle {
+  font-size: 3.75rem;
+  color: var(--metrics-sub-title-color);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.metrics__title {
+  font-size: 1.125rem;
+  color: var(--metrics-title-color);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.metrics__text {
+  color: var(--metrics-text-color);
+  line-height: 1.5rem;
+}
