@@ -1,6 +1,9 @@
 .about {
     height: 25.44rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .about__subtitle {
     color: var(--about-us-subtitle-color);
