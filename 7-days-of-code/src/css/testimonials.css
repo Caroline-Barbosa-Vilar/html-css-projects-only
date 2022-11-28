@@ -1,5 +1,37 @@
 .testimonials {
+  height: 31.25rem;
+  width: calc(100% - 14rem);
+  margin: 0 auto;
+}
+.testimonials__container {
   height: 25.25rem;
-  background-color: var(--testimonials-bg-color);
+  
   text-align: center;
+  padding: 4rem;
+  background-color: var(--testimonials-bg-color);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.testimonials__title {
+  font-size: 0.875rem;
+  color: var(--subtitle-color);
+  font-weight: 600;
+}
+.testimonials__subtitle {
+  font-size: 2.25rem;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+.testimonials__image {
+  padding-top: 2rem;
+}
+.testimonials__title-user {
+  font-weight: 500;
+  color: var(--title-color);
+  padding-top: 1rem;
+}
+.testimonials__text {
+  color: var(--text-color);
+  padding-top: 4px;
 }
