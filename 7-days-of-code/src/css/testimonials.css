@@ -1,0 +1,5 @@
+.testimonials {
+  height: 25.25rem;
+  background-color: var(--testimonials-bg-color);
+  text-align: center;
+}

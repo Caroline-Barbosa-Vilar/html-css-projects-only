@@ -1,23 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 :root {
-    --header-logo-text-color: #3A404E;
-    --header-links-color: #667085;
-    --header-button-text-color: #FFFFFF;
-    --header-button-bg-color: #8E2424;
-
-    --about-us-subtitle-color: #8E2424;
-    --about-us-title-color: #101828;
-    --about-us-text-color: #667085;
-
-    --metrics-sub-title-color: #8E2424;
-    --metrics-title-color: #101828;
-    --metrics-text-color: #667085;
-
-    --jobs-subtitle-color: #8E2424;
-    --jobs--title-color: #101828;
-    --jobs--text-color: #667085;
-
-    
+    --logo-text-color: #3A404E;
+    --button-text-color: #FFFFFF;
+    --subtitle-color: #8E2424;
+    --title-color: #101828;
+    --text-color: #667085;
+    --testimonials-bg-color: #FDF8F8;
 
     --font-family: 'Inter', sans-serif;
 }

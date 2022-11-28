@@ -2,5 +2,6 @@ html {
     font-family: var(--font-family);
 }
 .container {
-    padding: 1.66rem 7rem;
+    padding-left:7rem;
+    padding-right: 7rem;
 }

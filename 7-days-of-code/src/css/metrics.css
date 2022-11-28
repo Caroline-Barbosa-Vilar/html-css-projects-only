@@ -11,17 +11,17 @@
 }
 .metrics__subtitle {
   font-size: 3.75rem;
-  color: var(--metrics-sub-title-color);
+  color: var(--subtitle-color);
   font-weight: 600;
   margin-bottom: 0.75rem;
 }
 .metrics__title {
   font-size: 1.125rem;
-  color: var(--metrics-title-color);
+  color: var(--title-color);
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
 .metrics__text {
-  color: var(--metrics-text-color);
+  color: var(--text-color);
   line-height: 1.5rem;
 }
