@@ -1,4 +1,4 @@
-.metrics > .container {
+/* .metrics > .container {
   height: 18rem;
   display: flex;
   text-align: justify;
@@ -24,4 +24,4 @@
 .metrics__text {
   color: var(--text-color);
   line-height: 1.5rem;
-}
+} */

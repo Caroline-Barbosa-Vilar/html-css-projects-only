@@ -1,11 +1,10 @@
-.testimonials {
+/* .testimonials {
   height: 31.25rem;
   width: calc(100% - 14rem);
   margin: 0 auto;
 }
 .testimonials__container {
   height: 25.25rem;
-  
   text-align: center;
   padding: 4rem;
   background-color: var(--testimonials-bg-color);
@@ -34,4 +33,4 @@
 .testimonials__text {
   color: var(--text-color);
   padding-top: 4px;
-}
+} */
