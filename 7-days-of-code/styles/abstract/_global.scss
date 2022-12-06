@@ -1,0 +1,10 @@
+@import './variables';
+
+body {
+  font-family: $font-family;
+  padding: 0 2rem;
+}
+
+@mixin desktop {
+  @media (min-width: 1020px) { @content;}
+}

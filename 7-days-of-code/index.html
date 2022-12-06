@@ -6,59 +6,82 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>OptimusTech</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
         <header class="header">
-            <div class="header__logo">
-                <img src="src/img/logo/worldwide-logo.svg" alt="a globe icon" class="header__img">
-                <p class="header__logo-text">OptimusTech</p>
+            <div class="container__logo-desktop">
+                <img src="img/logo/worldwide-logo.svg" alt="" class="desktop_icon">
+                <span class="desktop__logo-text">OptimusTech</span>
             </div>
-            <div class="header__menu">
-                <ul>
-                    <li><a href="#" class="header__link">Home</a></li>
-                    <li><a href="#" class="header__link">Products</a></li>
-                    <li><a href="#" class="header__link">Resources</a></li>
-                    <li><a href="#" class="header__link">About Us</a></li>
+            <div class="container__hamburguer">
+              <input type="checkbox" id="menu" class="menu__hamburguer">
+              <label for="menu">
+                <img src="img/icons/Menu.svg" alt="" class="menu_icon icon">
+              </label>
+              <ul class="header__list">
+                  <li class="header__item">
+                    <a href="#" class="header__link">Home</a>
+                  </li>
+                  <li class="header__item">
+                    <a href="#" class="header__link">Products</a>
+                  </li>
+                  <li class="header__item">
+                    <a href="#" class="header__link">Resources</a>
+                  </li>
+                  <li class="header__item">
+                    <a href="#" class="header__link">About Us</a>
+                  </li>
+              </ul>
+            </div>
+            <div class="container__logo">
+              <img src="img/logo/worldwide-logo.svg" alt="" class="icon">
+              <span class="logo__text">OptimusTech</span>
+            </div>
+            <div class="container__login">
+                <input type="checkbox" id="login" class="menu__login">
+                <label for="login">
+                    <img src="img/icons/Usuario.svg" alt="" class="user_icon icon">
+                </label>
+                <ul class="login__list">
+                    <li class="login__item">
+                        <a href="#" class="login__link">Login</a>
+                    </li>
+                    <li class="login__item">
+                        <a href="#" class="login__link login__desktop">Register</a>
+                    </li>
                 </ul>
             </div>
-            <div class="header__access">
-                <span class="header__login"><a href="#">Login</a></span>
-                <a href="#" class="header__register">Register</a>
-            </div>
         </header>
-        <!-- <section class="about">
-            <div class="container">
-                <h2 class="about__subtitle">About Us</h2>
-                <h1 class="about__title">Why are we different?</h1>
-                <div class="about__text">We focus on the details in everything we do. All to help companies around the world focus on what is really important to them.</div>
-            </div>
+        <section class="about">
+            <h2 class="about__subtitle">About Us</h2>
+            <h1 class="about__title">Why are we different?</h1>
+            <div class="about__text">We focus on the details in everything we do. All to help companies around the world focus on what is really 
         </section>
         <section class="metrics">
-            <div class="container">
-                <div class="metrics__item">
-                    <h2 class="metrics__subtitle">400+</h2>
-                    <h3 class="metrics__title">Concluded projects</h3>
-                    <p class="metrics__text">We have helped build more than 400 amazing projects.</p>
-                </div>
-                <div class="metrics__item">
-                    <h2 class="metrics__subtitle">100+</h2>
-                    <h3 class="metrics__title">Employees</h3>
-                    <p class="metrics__text">We have more than 100 employees in our team who care about our customers.</p>
-                </div>
-                <div class="metrics__item">
-                    <h2 class="metrics__subtitle">20k</h2>
-                    <h3 class="metrics__title">Downloads</h3>
-                    <p class="metrics__text">Our projects that are available in stores have been downloaded more than 20,000 times.</p>
-                </div>
-                <div class="metrics__item">
-                    <h2 class="metrics__subtitle">500+</h2>
-                    <h3 class="metrics__title">Reviews 5 estrelas</h3>
-                    <p class="metrics__text">We are proud to have more than 500 5-star reviews on our products.</p>
-                </div>
+            <div class="metrics__item">
+                <h2 class="metrics__subtitle">400+</h2>
+                <h3 class="metrics__title">Concluded projects</h3>
+                <p class="metrics__text">We have helped build more than 400 amazing projects.</p>
             </div>
-        </section>
-        <section class="jobs">
+            <div class="metrics__item">
+                <h2 class="metrics__subtitle">100+</h2>
+                <h3 class="metrics__title">Employees</h3>
+                <p class="metrics__text">We have more than 100 employees in our team who care about our customers.</p>
+            </div>
+            <div class="metrics__item">
+                <h2 class="metrics__subtitle">20k</h2>
+                <h3 class="metrics__title">Downloads</h3>
+                <p class="metrics__text">Our projects that are available in stores have been downloaded more than 20,000 times.</p>
+            </div>
+            <div class="metrics__item">
+                <h2 class="metrics__subtitle">500+</h2>
+                <h3 class="metrics__title">Reviews 5 estrelas</h3>
+                <p class="metrics__text">We are proud to have more than 500 5-star reviews on our products.</p>
+            </div>
+        </section> -->
+        <!-- <section class="jobs">
             <div class="container">
                 <div>
                     <h3 class="jobs__subtitle">Open Jobs</h3>
@@ -108,8 +131,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="testimonials">
+        </section> -->
+        <!-- <section class="testimonials">
             <div class="testimonials__container">
                 <h2 class="testimonials__title">See what our employees say about us</h2>
                 <h3 class="testimonials__subtitle">OptimusTech cares about the health of its employees and always tries to give us all kinds of help possible.</h3>
@@ -117,8 +140,8 @@
                 <span class="testimonials__title-user">Júlia Castro</span>
                 <span class="testimonials__text">Web Developer</span>
             </div>
-        </section>
-        <footer class="footer">
+        </section> -->
+        <!-- <footer class="footer">
             <div class="container">
                 <h2 class="footer_title">Keep track of our opportunities</h2>
                 <h3 class="footer__subtitle">Be the first to know when new jobs open up!</h3>

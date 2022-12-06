@@ -1,1 +1,209 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  font-family: "Inter", sans-serif;
+  padding: 0 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+@media (min-width: 1020px) {
+  .header {
+    padding: 1.75rem 0;
+  }
+}
+.header .container__logo-desktop {
+  display: none;
+  color: #667085;
+  font-size: 1.125rem;
+}
+@media (min-width: 1020px) {
+  .header .container__logo-desktop {
+    display: inline-flex;
+    align-items: center;
+  }
+}
+@media (min-width: 1020px) {
+  .header .container__logo-desktop .desktop__logo-text {
+    padding-left: 0.5rem;
+    font-weight: 500;
+  }
+}
+.header .container__hamburguer {
+  display: flex;
+  align-items: center;
+}
+.header .container__hamburguer .menu__hamburguer {
+  display: none;
+}
+.header .container__hamburguer .menu__hamburguer:checked ~ .header__list {
+  display: block;
+}
+.header .container__hamburguer .menu_icon {
+  width: 24px;
+  height: 24px;
+}
+@media (min-width: 1020px) {
+  .header .container__hamburguer .menu_icon {
+    display: none;
+  }
+}
+.header .container__hamburguer .icon {
+  padding: 0.8rem 0;
+}
+.header .container__hamburguer .header__list {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+@media (min-width: 1020px) {
+  .header .container__hamburguer .header__list {
+    display: inline-flex;
+    position: relative;
+  }
+}
+.header .container__hamburguer .header__list .header__item {
+  padding: 0.5rem 0.8rem;
+}
+.header .container__hamburguer .header__list .header__item .header__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #667085;
+  font-size: 0.875rem;
+}
+@media (min-width: 1020px) {
+  .header .container__hamburguer .header__list .header__item .header__link {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+.header .container__logo {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 1020px) {
+  .header .container__logo {
+    display: none;
+  }
+}
+.header .container__logo .icon {
+  padding-right: 0.5rem;
+}
+.header .container__login {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header .container__login .menu__login {
+  display: none;
+}
+.header .container__login .menu__login:checked ~ .login__list {
+  display: block;
+}
+.header .container__login .user_icon {
+  width: 24px;
+  height: 24px;
+}
+@media (min-width: 1020px) {
+  .header .container__login .user_icon {
+    display: none;
+  }
+}
+.header .container__login .icon {
+  padding: 0.8rem 0;
+}
+.header .container__login .login__list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 10%;
+}
+@media (min-width: 1020px) {
+  .header .container__login .login__list {
+    display: inline-flex;
+    position: relative;
+  }
+}
+.header .container__login .login__list .login__item {
+  padding: 0.5rem 0.8rem;
+  text-align: end;
+}
+.header .container__login .login__list .login__item .login__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #667085;
+  font-size: 0.875rem;
+}
+@media (min-width: 1020px) {
+  .header .container__login .login__list .login__item .login__link {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+@media (min-width: 1020px) {
+  .header .container__login .login__list .login__item .login__desktop {
+    color: #FFFFFF;
+    font-weight: 500;
+    background-color: #8E2424;
+    border-radius: 8px;
+    padding: 0.625rem 1.125rem;
+  }
+}
+
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+@media (min-width: 1020px) {
+  .about {
+    height: 25.44rem;
+    margin-top: 0;
+  }
+}
+.about .about__subtitle {
+  color: #8E2424;
+  font-weight: 600;
+}
+@media (min-width: 1020px) {
+  .about .about__subtitle {
+    margin: 6rem 0 1.5rem;
+  }
+}
+.about .about__title {
+  color: #101828;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+@media (min-width: 1020px) {
+  .about .about__title {
+    font-size: 3rem;
+    margin-bottom: 2.25rem;
+  }
+}
+.about .about__text {
+  color: #667085;
+  font-size: 0.875rem;
+  padding: 1rem 1.5rem;
+  line-height: 1.2;
+}
+@media (min-width: 1020px) {
+  .about .about__text {
+    font-size: 1.25rem;
+    margin: 0 auto;
+    width: 40rem;
+    line-height: 1.875rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 2rem;
+}/*# sourceMappingURL=style.css.map */

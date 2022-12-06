@@ -1,4 +1,4 @@
-.header, .header__logo, .header__access {
+/*.header, .header__logo, .header__access {
     align-items: center;
     display: flex;
     font-size: 0.875rem;
@@ -26,7 +26,7 @@
     border-radius: 8px;
     padding: 0.4rem 0.7rem;
 }
-/* .header .header__logo, .header__list {
+ .header .header__logo, .header__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
