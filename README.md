@@ -88,7 +88,7 @@ Larger Screens
 
 <br>
 
-### Project sass-petshop-project:
+### Project 'sass-petshop-project':
 
 Mobile
 
@@ -101,6 +101,12 @@ Desktop
 Larger Screens 
 
 <img src="./sass-petshop-project/img/larger-screens.gif" alt="larger screens video"> 
+
+<br>
+
+### Project '7 days of code': 
+
+[The figma design](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A9878&t=09Y2y3RFbmvgWlPC-0)
 
 <br>
 
@@ -191,7 +197,7 @@ Larger Screens
 <img src="./mobile-first-responsive-project/assets/larger-screens.gif" alt="larger screens video"> 
 <br>
 
-### Projeto sass-petshop-project:
+### Projeto 'sass-petshop-project':
 
 Mobile
 
@@ -205,6 +211,12 @@ Larger Screens
 
 <img src="./sass-petshop-project/img/larger-screens.gif" alt="larger screens video"> 
 		
+<br>
+	
+### Projeto '7 days of code':
+	
+[The figma design](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A9878&t=09Y2y3RFbmvgWlPC-0)
+
 <br>
 <hr>
 
