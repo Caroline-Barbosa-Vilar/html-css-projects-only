@@ -1,11 +1,10 @@
 @import '../abstract/variables';
 
 .metrics {
-  display: flex;
-  flex-direction: column;
   margin-top: 2rem;
   margin: 3rem auto;
   text-align: start;
+  @include flex-column;
   width: 80%;
   @include desktop {
     flex-direction: row;
@@ -19,10 +18,9 @@
       width: 17rem;
     }
     .metrics__subtitle {
-      color: $subtitle-color;
       font-size: 2rem;
-      font-weight: 600;
       margin-bottom: 0.75rem;
+      @include subtitle-mobile;
       @include desktop {
         font-size: 3.75rem;
       }
@@ -37,9 +35,8 @@
       }
     }
     .metrics__text {
-      color: $text-color;
-      font-size: 0.875rem;
       line-height: 1.5rem;
+      @include text-mobile;
       @include desktop {
         font-size: 1rem;
       }

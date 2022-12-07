@@ -1,25 +1,21 @@
 .footer {
   background-color: $footer-bg-color;
-  display: flex;
-  flex-direction: column;
   padding: 2rem 0;
   text-align: center;
+  @include flex-column;
   @include desktop {
     padding: 5rem 0;
   }
   .footer_title {
-    color: $title-color;
-    font-size: 1.2rem;
-    font-weight: 600;
+    @include title-mobile;
     @include desktop {
       font-size: 2.25rem;
     }
   }
   .footer__subtitle {
     color: $text-color;
-    font-size: 0.875rem;
-    font-weight: 400;
     padding-top: 1rem;
+    @include font-mobile;
     @include desktop {
       font-size: 1.25rem;
       padding-top: 1.25rem;

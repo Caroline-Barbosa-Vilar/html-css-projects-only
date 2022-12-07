@@ -1,10 +1,9 @@
 @import '../abstract/variables';
 
 .header {
-  align-items: center;
-  display: flex;
   justify-content: space-between;
   position: relative;
+  @include flex;
   @include desktop {
     padding: 1.75rem 0;
   }
@@ -24,8 +23,7 @@
     }
   }
   .container__hamburguer {
-    align-items: center;
-    display: flex;
+    @include flex;
     .menu__hamburguer {
       display: none;
     }
@@ -43,36 +41,38 @@
       padding: 0.8rem 0;
     }
     .header__list {
-      background-color: RGBA( 255, 255, 255, 1);
+      background-color: white;
       display: none;
-      // opacity: 1;
       position: absolute;
       top: 100%;
+      z-index: 999;
+      width: 90VW;
       @include desktop {
-        display: inline-flex;
-        position: relative;
+        @include inline-relative;
       }
       .header__item {
-        padding: 0.5rem 0;
+        padding: 0.8rem 0;
+        }
         @include desktop {
           padding: 0 1rem;
         }
         .header__link {
           color: $text-color;
           font-size: 0.8rem;
-          text-decoration: none;
-          text-transform: uppercase;
+          @include list-style;
+          &:hover {
+            border-bottom: 2px solid $logo-text-color;
+            color: $subtitle-color;
+          }
           @include desktop {
-            font-size: 1rem;
-            font-weight: 500;
+            @include subtitle-desktop;
           }
         }
       }
     }
   }
   .container__logo {
-    align-items: center;
-    display: flex;
+    @include flex;
     @include desktop {
       display: none;
     }
@@ -81,8 +81,7 @@
     }
   }
   .container__login {
-    align-items: center;
-    display: flex;
+    @include flex;
     position: relative;
     .menu__login {
       display: none;
@@ -106,8 +105,7 @@
       right: 10%;
       top: 100%;
       @include desktop {
-        display: inline-flex;
-        position: relative;
+        @include inline-relative;
       }
       .login__item {
         padding: 0.5rem 0;
@@ -115,11 +113,12 @@
         .login__link {
           color: $text-color;
           font-size: 0.8rem;
-          text-transform: uppercase;
-          text-decoration: none;
+          @include list-style;
+          &:hover {
+            border-bottom: 2px solid $logo-text-color;
+          }
           @include desktop {
-            font-size: 1rem;
-            font-weight: 500;
+            @include subtitle-desktop;
           }
         }
         .login__desktop {

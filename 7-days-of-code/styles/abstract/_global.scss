@@ -8,6 +8,44 @@ body {
   }
 }
 
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+@mixin inline-relative {
+  display: inline-flex;
+  position: relative;
+}
+@mixin list-style {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@mixin font-mobile {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+@mixin subtitle-mobile {
+  color: $subtitle-color;
+  font-weight: 600;
+}
+@mixin subtitle-desktop {
+  font-size: 1rem;
+  font-weight: 500;
+}
+@mixin title-mobile {
+  color: $title-color;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+@mixin text-mobile {
+  color: $text-color;
+  font-size: 0.875rem;
+}
+
 @mixin desktop {
   @media (min-width: 1020px) { @content;}
 }

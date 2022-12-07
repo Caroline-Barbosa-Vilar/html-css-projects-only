@@ -1,27 +1,22 @@
 @import '../abstract/variables';
 
 .jobs {
-  display: flex;
-  flex-direction: column;
   text-align: center;
+  @include flex-column;
   @include desktop {
     padding-bottom: 6rem;
   }
   .jobs__info {
     .jobs__subtitle {
-      color: $subtitle-color;
-      font-weight: 600;
+      @include subtitle-mobile;
       @include desktop {
-        font-size: 1rem;
-        font-weight: 500;
+        @include subtitle-desktop;
         margin-top: 6.25rem;
       }
     }
     .jobs__title {
-      color: $title-color;
-      font-size: 1.25rem;
-      font-weight: 600;
       margin-top: 1.25rem;
+      @include title-mobile;
       @include desktop {
       font-size: 2.25rem;
       }
@@ -43,10 +38,9 @@
     }
   }
   .jobs__description {
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
     padding-top: 2rem;
+    @include flex-column;
     @include desktop {
       padding: 0 14rem;
     }
@@ -61,8 +55,7 @@
     }
     .jobs__description-item {
       align-self: flex-start;
-      display: flex;
-      flex-direction: column;
+      @include flex-column;
       @include desktop {
         width: 48rem;
       }
@@ -80,11 +73,10 @@
       }
       .jobs__description-info {
         align-self: flex-start;
-        color: $text-color;
         display: flex;
-        font-size: 0.875rem;
         justify-content: center;
         margin-top: 1rem;
+        @include text-mobile;
         @include desktop {
           font-size: 1rem;
           margin-top: 2rem;
