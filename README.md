@@ -104,7 +104,9 @@ Larger Screens
 
 <br>
 
-### Project '7 days of code':
+### Project '7 days of code': 
+
+[The figma design](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A9878&t=09Y2y3RFbmvgWlPC-0)
 
 Mobile
 
@@ -117,12 +119,6 @@ Tablet
 Larger Screens 
 
 <img src="./7-days-of-code/larger-screens.gif" alt="larger screens video"> 
-
-<br>
-
-### Project '7 days of code': 
-
-[The figma design](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A9878&t=09Y2y3RFbmvgWlPC-0)
 
 <br>
 
@@ -226,8 +222,12 @@ Desktop
 Larger Screens 
 
 <img src="./sass-petshop-project/img/larger-screens.gif" alt="larger screens video"> 
+
+<br>
 	
 ### Projeto '7 days of code':
+	
+[The figma design](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A9878&t=09Y2y3RFbmvgWlPC-0)
 
 Mobile
 
@@ -240,13 +240,6 @@ Tablet
 Larger Screens 
 
 <img src="./7-days-of-code/larger-screens.gif" alt="larger screens video"> 
-
-<br>
-<br>
-	
-### Projeto '7 days of code':
-	
-[The figma design](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A9878&t=09Y2y3RFbmvgWlPC-0)
 
 <br>
 <hr>
