@@ -70,7 +70,7 @@ larger screens. I also decided to use the Sass preprocessor.
 
 ## Project view
 
-Project 'mobile-first-responsive-project': 
+### Project 'mobile-first-responsive-project': 
 
 Mobile
 
@@ -101,6 +101,22 @@ Desktop
 Larger Screens 
 
 <img src="./sass-petshop-project/img/larger-screens.gif" alt="larger screens video"> 
+
+<br>
+
+### Project '7 days of code':
+
+Mobile
+
+<img src="./7-days-of-code/mobile.gif" alt="mobile screen video">
+
+Desktop 
+
+<img src="./7-days-of-code/tablet.gif" alt="desktop screen video">
+
+Larger Screens 
+
+<img src="./7-days-of-code/larger-screens.gif" alt="larger screens video"> 
 
 <br>
 
@@ -210,7 +226,22 @@ Desktop
 Larger Screens 
 
 <img src="./sass-petshop-project/img/larger-screens.gif" alt="larger screens video"> 
-		
+	
+### Projeto '7 days of code':
+
+Mobile
+
+<img src="./7-days-of-code/mobile.gif" alt="mobile screen video">
+
+Desktop 
+
+<img src="./7-days-of-code/tablet.gif" alt="desktop screen video">
+
+Larger Screens 
+
+<img src="./7-days-of-code/larger-screens.gif" alt="larger screens video"> 
+
+<br>
 <br>
 	
 ### Projeto '7 days of code':
