@@ -3,6 +3,9 @@
 body {
   font-family: $font-family;
   padding: 0 2rem;
+  @media (min-width: 1020px) {
+    padding: 0 7rem;
+  }
 }
 
 @mixin desktop {

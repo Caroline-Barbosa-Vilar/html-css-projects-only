@@ -1,0 +1,98 @@
+@import '../abstract/variables';
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  @include desktop {
+    padding-bottom: 6rem;
+  }
+  .jobs__info {
+    .jobs__subtitle {
+      color: $subtitle-color;
+      font-weight: 600;
+      @include desktop {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 6.25rem;
+      }
+    }
+    .jobs__title {
+      color: $title-color;
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 1.25rem;
+      @include desktop {
+      font-size: 2.25rem;
+      }
+    }
+    .jobs__text {
+      color: $text-color;
+      margin-top: 1.25rem;
+      @include desktop {
+        font-size: 1.25rem;
+      }
+    }
+    .jobs__image {
+      margin-top: 3rem;
+      width: 100%;
+      @include desktop {
+        margin-top: 4rem;
+        width: 80vw;
+      }
+    }
+  }
+  .jobs__description {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 2rem;
+    @include desktop {
+      padding: 0 14rem;
+    }
+    .jobs__description-title {
+      align-self: flex-start;
+      color: $title-color;
+      font-weight: 500;
+      @include desktop {
+        font-size: 1.25rem;
+        margin-top: 4rem;
+      }
+    }
+    .jobs__description-item {
+      align-self: flex-start;
+      display: flex;
+      flex-direction: column;
+      @include desktop {
+        width: 48rem;
+      }
+      .jobs__description-subtitle {
+        align-self: flex-start;
+        color: $title-color;
+        font-size: 0.875rem;
+        font-weight: 500;
+        padding-top: 1.5rem;
+        @include desktop {
+          font-size: 1.125rem;
+          margin-top: 3.5rem;
+          padding-left: 1.5rem;
+        }
+      }
+      .jobs__description-info {
+        align-self: flex-start;
+        color: $text-color;
+        display: flex;
+        font-size: 0.875rem;
+        justify-content: center;
+        margin-top: 1rem;
+        @include desktop {
+          font-size: 1rem;
+          margin-top: 2rem;
+        }
+        .jobs__description-text {
+          padding-left: 1.5rem;
+        }
+      }
+    }
+  }
+}

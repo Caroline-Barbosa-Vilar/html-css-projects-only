@@ -3,9 +3,46 @@
 .metrics {
   display: flex;
   flex-direction: column;
-  text-align: start;
   margin-top: 2rem;
+  margin: 3rem auto;
+  text-align: start;
+  width: 80%;
+  @include desktop {
+    flex-direction: row;
+    height: 18rem;
+    justify-content: space-between;
+  }
   .metrics__item {
-    width: ;
+    margin-bottom: 2rem;
+    @include desktop {
+      margin-right: 2rem;
+      width: 17rem;
+    }
+    .metrics__subtitle {
+      color: $subtitle-color;
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      @include desktop {
+        font-size: 3.75rem;
+      }
+    }
+    .metrics__title {
+      color: $title-color;
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      @include desktop {
+        font-size: 1.125rem;
+      }
+    }
+    .metrics__text {
+      color: $text-color;
+      font-size: 0.875rem;
+      line-height: 1.5rem;
+      @include desktop {
+        font-size: 1rem;
+      }
+    }
   }
 }

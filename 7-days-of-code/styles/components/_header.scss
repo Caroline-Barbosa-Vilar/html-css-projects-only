@@ -1,31 +1,31 @@
 @import '../abstract/variables';
 
 .header {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   position: relative;
   @include desktop {
     padding: 1.75rem 0;
   }
   .container__logo-desktop {
-    display: none;
     color: $text-color;
+    display: none;
     font-size: 1.125rem;
     @include desktop {
-      display: inline-flex;
       align-items: center;
+      display: inline-flex;
     }
     .desktop__logo-text {
       @include desktop {
-        padding-left: 0.5rem;
         font-weight: 500;
+        padding-left: 0.5rem;
       }
     }
   }
   .container__hamburguer {
-    display: flex;
     align-items: center;
+    display: flex;
     .menu__hamburguer {
       display: none;
     }
@@ -33,8 +33,8 @@
       display: block;
     }
     .menu_icon {
-      width: 24px;
       height: 24px;
+      width: 24px;
       @include desktop {
         display: none;
       }
@@ -43,7 +43,9 @@
       padding: 0.8rem 0;
     }
     .header__list {
+      background-color: RGBA( 255, 255, 255, 1);
       display: none;
+      // opacity: 1;
       position: absolute;
       top: 100%;
       @include desktop {
@@ -51,12 +53,15 @@
         position: relative;
       }
       .header__item {
-        // padding: 0.5rem 0;
+        padding: 0.5rem 0;
+        @include desktop {
+          padding: 0 1rem;
+        }
         .header__link {
-          text-decoration: none;
-          text-transform: uppercase;
           color: $text-color;
           font-size: 0.8rem;
+          text-decoration: none;
+          text-transform: uppercase;
           @include desktop {
             font-size: 1rem;
             font-weight: 500;
@@ -66,8 +71,8 @@
     }
   }
   .container__logo {
-    display: flex;
     align-items: center;
+    display: flex;
     @include desktop {
       display: none;
     }
@@ -76,8 +81,8 @@
     }
   }
   .container__login {
-    display: flex;
     align-items: center;
+    display: flex;
     position: relative;
     .menu__login {
       display: none;
@@ -86,8 +91,8 @@
       display: block;
     }
     .user_icon {
-      width: 24px;
       height: 24px;
+      width: 24px;
       @include desktop {
         display: none;
       }
@@ -98,20 +103,20 @@
     .login__list {
       display: none;
       position: absolute;
-      top: 100%;
       right: 10%;
+      top: 100%;
       @include desktop {
         display: inline-flex;
         position: relative;
       }
       .login__item {
-        // padding: 0.5rem 0;
+        padding: 0.5rem 0;
         text-align: end;
         .login__link {
-          text-decoration: none;
-          text-transform: uppercase;
           color: $text-color;
           font-size: 0.8rem;
+          text-transform: uppercase;
+          text-decoration: none;
           @include desktop {
             font-size: 1rem;
             font-weight: 500;
@@ -119,11 +124,12 @@
         }
         .login__desktop {
           @include desktop {
-            color: $button-text-color;
-            font-weight: 500;
             background-color: $subtitle-color;
             border-radius: 8px;
+            color: $button-text-color;
+            font-weight: 500;
             padding: 0.625rem 1.125rem;
+            margin-left: 1rem;
           }
         }
       }

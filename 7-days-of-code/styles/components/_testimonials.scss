@@ -1,0 +1,48 @@
+@import '../abstract/variables';
+
+.testimonials {
+  background-color: $testimonials-bg-color;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  padding: 2rem 0;
+  text-align: center;
+  @include desktop {
+    height: 25.25rem;
+    padding: 4rem 4rem 0;
+    width: calc(100% - 14rem);
+  }
+  .testimonials__title {
+    color: $subtitle-color;
+    font-weight: 600;
+    padding: 0 4rem;
+    @include desktop {
+      font-size: 1rem;
+    }
+  }
+  .testimonials__subtitle {
+    color: $text-color;
+    font-size: 1rem;
+    line-height: 1.2;
+    padding: 1rem 1.5rem 0;
+    @include desktop {
+      color: $logo-text-color;
+      font-size: 2.25rem;
+      font-weight: 500;
+    }
+  }
+  .testimonials__image {
+    margin: 0 auto;
+    padding-top: 2rem;
+    width: 3.5rem;
+  }
+  .testimonials__title-user {
+    color: $text-color;
+    font-weight: 500;
+    padding-top: 1rem;
+  }
+  .testimonials__text {
+    color: $text-color;
+    padding-top: 4px;
+  }
+}

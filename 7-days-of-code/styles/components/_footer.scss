@@ -1,0 +1,70 @@
+.footer {
+  background-color: $footer-bg-color;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  text-align: center;
+  @include desktop {
+    padding: 5rem 0;
+  }
+  .footer_title {
+    color: $title-color;
+    font-size: 1.2rem;
+    font-weight: 600;
+    @include desktop {
+      font-size: 2.25rem;
+    }
+  }
+  .footer__subtitle {
+    color: $text-color;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding-top: 1rem;
+    @include desktop {
+      font-size: 1.25rem;
+      padding-top: 1.25rem;
+    }
+  }
+  .footer__input {
+    padding-top: 1.8rem;
+    @include desktop {
+      padding-top: 2.5rem;
+    }
+    .footer__email {
+      border: 1px solid $input-border-color;
+      border-radius: 8px;
+      height: 2rem;
+      width: 10rem;
+      @include desktop {
+        width: 20rem;
+        height: 3rem;
+      }
+    }
+    input::placeholder {
+      color: $text-color;
+      font-family: $font-family;
+      font-weight: 400;
+      padding: 0.75rem;
+    }
+    .footer__button {
+      background-color: $subtitle-color;
+      border-radius: 8px;
+      color: $button-text-color;
+      font-size: 0.875rem;
+      margin-left: 0.5rem;
+      padding: 0.45rem 1rem;
+      @include desktop {
+        margin-left: 1rem;
+        padding: 0.75rem 1.25rem;
+      }
+    }
+  }
+  .footer__text {
+    color: $text-color;
+    font-size: 0.875rem;
+    padding-top: 2rem;
+    @include desktop {
+      font-size: 1rem;
+    }
+  }
+}
