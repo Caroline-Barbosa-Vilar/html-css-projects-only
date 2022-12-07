@@ -46,9 +46,10 @@
       position: absolute;
       top: 100%;
       z-index: 999;
-      width: 90VW;
+      width: 90vw;
       @include desktop {
         @include inline-relative;
+        width: auto;
       }
       .header__item {
         padding: 0.8rem 0;
@@ -62,7 +63,6 @@
           @include list-style;
           &:hover {
             border-bottom: 2px solid $logo-text-color;
-            color: $subtitle-color;
           }
           @include desktop {
             @include subtitle-desktop;
