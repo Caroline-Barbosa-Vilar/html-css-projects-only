@@ -110,7 +110,7 @@ Mobile
 
 <img src="./7-days-of-code/mobile.gif" alt="mobile screen video">
 
-Desktop 
+Tablet 
 
 <img src="./7-days-of-code/tablet.gif" alt="desktop screen video">
 
@@ -233,7 +233,7 @@ Mobile
 
 <img src="./7-days-of-code/mobile.gif" alt="mobile screen video">
 
-Desktop 
+Tablet 
 
 <img src="./7-days-of-code/tablet.gif" alt="desktop screen video">
 
