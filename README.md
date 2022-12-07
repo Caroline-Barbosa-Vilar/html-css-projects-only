@@ -56,6 +56,16 @@ This repository has some projects developed for HTML and CSS practice. Layouts p
 - Implement functions and logic in application stylization;
 - Make the application responsive in a simple and reusable way.
 
+### Project '7 days of code': Simulates the website of an online tech recruiting company.
+This project is part of the 7-day coding challenge of Alura's Frontend School. In it was passed only the link of the project in figma and 
+the code is developed by the dev. My personal challenge was to create the mobile version, which was not passed in the figma. At first I made 
+the project desktop only (according to the given layout) but then I decided to refactor the project starting with mobile and then responsive for 
+larger screens. I also decided to use the Sass preprocessor. 
+- I implemented the CSS architecture technique by arranging the properties in alphabetical order;
+- I challenged myself by making two menu versions, the mobile and the larger screen versions;
+- First time refactoring an entire project;
+- I used mixins and functions to improve the usability of the code.
+
 <br>
 
 ## Project view
@@ -78,7 +88,7 @@ Larger Screens
 
 <br>
 
-### Project sass-petshop-project:
+### Project 'sass-petshop-project':
 
 Mobile
 
@@ -91,6 +101,12 @@ Desktop
 Larger Screens 
 
 <img src="./sass-petshop-project/img/larger-screens.gif" alt="larger screens video"> 
+
+<br>
+
+### Project '7 days of code': 
+
+[The figma design](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A9878&t=09Y2y3RFbmvgWlPC-0)
 
 <br>
 
@@ -142,15 +158,25 @@ Esse repositório contém projetos desenvolvidos para treinar HTML e CSS. Os lay
 
 ## O que aprendi
 	
-### Projeto mobile-first-responsive-project: Simula uma livraria virtual especializada em programação.
+### Projeto 'mobile-first-responsive-project': Simula uma livraria virtual especializada em programação.
 - Como deixar a página dinâmica usando apenas HTML e CSS;
 - Desenvolver o projeto considerando 'mobile first'.
 
 
-### Projeto sass-petshop-project: Simula o blog de um petshop.
+### Projeto 'sass-petshop-project': Simula o blog de um petshop.
 - Usar o pré-processador de CSS, Sass;
 - Implementar funções e lógica na estilização da aplicação;
 - Tornar a aplicação responsiva de maneira simples e reutilizável.
+
+### Projeto '7 days of code': Simula a página de uma empresa de recrutamento tech online.
+Esse projeto faz parte do desafio de 7 dias codando da escola de Frontend da Alura. Nele foi passado apenas o link do projeto 
+no figma e o código é desenvolvido por conta do dev. Meu desafio pessoal foi criar a versão mobile, que não foi passada no figma. 
+A princípio fiz o projeto apenas desktop (conforme layout dado) mas depois resolvi refatorar o projeto começando pelo mobile e depois o 
+responsivo para telas maiores. Decidi também utilizar o pré-processador Sass. 
+- Implementei a técnica de arquitetura CSS organizando os as propriedades por ordem alfabética;
+- Me desafiei fazendo duas versões de menu, o mobile e o de telas maiores;
+- Primeira vez que refatoro um projeto inteiro;
+- Utilizei mixins e funções para melhorar a usabilidade do código.
 
 <br>
 
@@ -171,7 +197,7 @@ Larger Screens
 <img src="./mobile-first-responsive-project/assets/larger-screens.gif" alt="larger screens video"> 
 <br>
 
-### Projeto sass-petshop-project:
+### Projeto 'sass-petshop-project':
 
 Mobile
 
@@ -185,6 +211,12 @@ Larger Screens
 
 <img src="./sass-petshop-project/img/larger-screens.gif" alt="larger screens video"> 
 		
+<br>
+	
+### Projeto '7 days of code':
+	
+[The figma design](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A9878&t=09Y2y3RFbmvgWlPC-0)
+
 <br>
 <hr>
 
