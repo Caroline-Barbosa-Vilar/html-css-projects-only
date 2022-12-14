@@ -20,7 +20,7 @@ _Para a versão em Português, clique [aqui](#portuguese)._
 
 - [What I learned](#what-I-learned)
 
-- [Project view](#project-view)
+- [Projects view](#projects-view)
 
 <br>
 
@@ -57,7 +57,7 @@ This repository has some projects developed for HTML and CSS practice. Layouts p
 - Make the application responsive in a simple and reusable way.
 
 ### Project '7 days of code': Simulates the website of an online tech recruiting company.
-This project is part of the 7-day coding challenge of Alura's Frontend School. In it was passed only the link of the project in figma and 
+This project is part of the 7-day coding challenge of Alura's Frontend School. In the challenge instructions was passed only the link of the project in figma and 
 the code is developed by the dev. My personal challenge was to create the mobile version, which was not passed in the figma. At first I made 
 the project desktop only (according to the given layout) but then I decided to refactor the project starting with mobile and then responsive for 
 larger screens. I also decided to use the Sass preprocessor. 
@@ -68,7 +68,7 @@ larger screens. I also decided to use the Sass preprocessor.
 
 <br>
 
-## Project view
+## Projects view
 
 ### Project 'mobile-first-responsive-project': 
 
